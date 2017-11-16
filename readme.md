@@ -1,6 +1,6 @@
 # tic-tac-toe
 ### scripts
-  *lint> npm run-script lint
-  *test> npm run-script
-  *build> npm run-script
-  *serve> npm run-script
+  1. lint> npm run-script lint
+  2. test> npm run-script test
+  3. build> npm run-script build
+  4. serve> npm run-script serve
