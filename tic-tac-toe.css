@@ -1,0 +1,38 @@
+.board {
+  border: solid 1px blue;
+  font-size: 24px;
+  box-sizing: border-box;
+  width: 115px;
+}
+
+.board .row:hover {
+  cursor: default;
+}
+
+.board.active .row:hover {
+  cursor: pointer;
+}
+
+.row {
+  clear: both;
+  padding: 5px;
+  height: 35px;
+  box-sizing: border-box;
+}
+
+.row .col:nth-child(2n) {
+  margin: 0 10px;
+}
+
+.col {
+  border: solid 1px black;
+  float: left;
+  height: 25px;
+  width: 25px;
+  text-align: center;
+  line-height: 25px;
+}
+
+.start-game {
+  margin-top: 20px;
+}
